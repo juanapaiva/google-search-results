@@ -214,3 +214,35 @@ main .container {
   font-size: 20px;
   font-weight: bold;
 }
+
+/* Related searches */
+
+#related-searches h2 {
+  margin: 30px 0 25px 0;
+  font-size: 20px;
+  font-weight: normal;
+  color: #222;
+}
+
+.search-exemples {
+  display: flex;
+}
+
+.search-exemples .col {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-exemples .col:first-child {
+  margin-right: 30px;
+}
+
+.search-exemples .col a {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #0027a7;
+}
+
+.search-exemples .col a:hover {
+  text-decoration: underline;
+}
