@@ -153,6 +153,8 @@ main .container {
   padding: 10px;
 }
 
+/* Results */
+
 #results span {
   font-size: 14px;
   color: #777;
@@ -182,4 +184,33 @@ main .container {
   font-size: 14px;
   line-height: 1.5;
   color: #666;
+}
+
+/* FAQ */
+
+.faq {
+  width: 650px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 30px 0;
+  color: #222;
+}
+
+.faq h2 {
+  padding: 12px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.question span {
+  font-size: 20px;
+  font-weight: bold;
 }
