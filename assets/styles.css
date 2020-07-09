@@ -146,3 +146,40 @@ nav .container {
 .nav-option .more-icon-parts:last-child {
   margin-bottom: 0;
 }
+
+/* Main */
+
+main .container {
+  padding: 10px;
+}
+
+#results span {
+  font-size: 14px;
+  color: #777;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result-link {
+  font-size: 14px;
+  color: #444;
+}
+
+.result h2 {
+  margin: 7px 0;
+  font-size: 20px;
+  font-weight: normal;
+  color: #0027a7;
+}
+
+.result h2:hover {
+  text-decoration: underline;
+}
+
+.page-description p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+}
