@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -150,6 +150,7 @@ nav .container {
 /* Main */
 
 main .container {
+  width: 680px;
   padding: 10px;
 }
 
@@ -245,4 +246,74 @@ main .container {
 
 .search-exemples .col a:hover {
   text-decoration: underline;
+}
+
+/* Other-pages area */
+
+.google-pages {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.google-letters h2 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.google-letters p {
+  padding-left: 6px;
+  font-size: 14px;
+  color: #4285F4;
+}
+
+.google-letters p:hover {
+  text-decoration: underline;
+}
+
+.google-letters #first-page {
+  color: #222;
+  text-decoration: none;
+}
+
+.letter-blue {
+  color: #4285F4;
+}
+
+.letter-red {
+  color: #DB4437;
+}
+
+.letter-yellow {
+  color: #F4B400;
+}
+
+.letter-green {
+  color: #0F9D58;
+}
+
+.letters-gle {
+  display: flex;
+}
+
+#letter-ten {
+  padding-left: 2px;
+}
+
+.google-more {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+#letter-arrow {
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+#letter-arrow:hover {
+  text-decoration: none;
 }
