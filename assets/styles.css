@@ -14,6 +14,12 @@ a {
   margin-left: 170px;
 }
 
+.letter-arrow {
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  margin-bottom: 8px;
+}
+
 /* Header */
 
 .content {
@@ -37,7 +43,7 @@ a {
 .search {
   display: flex;
   width: 660px;
-  padding: 10px;
+  padding: 8px;
   border: 1px solid #ddd;
   border-radius: 30px;
   margin-left: 50px;
@@ -211,9 +217,9 @@ main .container {
   cursor: pointer;
 }
 
-.question span {
-  font-size: 20px;
+.question .letter-arrow {
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 /* Related searches */
@@ -307,13 +313,36 @@ main .container {
   margin-left: 5px;
 }
 
-#letter-arrow {
-  text-align: center;
-  font-family: 'Staatliches', cursive;
+.google-letters .letter-arrow {
   font-size: 24px;
-  margin-bottom: 8px;
 }
 
-#letter-arrow:hover {
+.letter-arrow:hover {
   text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+  background-color: #eee;
+}
+
+.footer-row {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-row p {
+  font-size: 15px;
+  color: #777;
+}
+
+.footer-row a {
+  margin-right: 25px;
+  font-size: 15px;
+  color: #666;
+}
+
+.footer-row a:hover {
+  color: #444;
 }

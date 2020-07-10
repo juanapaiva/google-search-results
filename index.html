@@ -1,316 +1,346 @@
 <!DOCTYaE html>
-<html lang="pt-br">
+  <html lang="pt-br">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>lorem ipsum - Pesquisa Google</title>
+    <title>lorem ipsum - Pesquisa Google</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Spartan:wght@400;600;700&family=Staatliches&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Spartan:wght@400;600;700&family=Staatliches&display=swap"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="./assets/styles.css">
-</head>
+    <link rel="stylesheet" href="./assets/styles.css">
+  </head>
 
-<body>
-  <header>
-    <div class="content">
-      <div class="search-area">
-        <img src="./assets/images/google.png" alt="Google logo" id="logo">
+  <body>
+    <header>
+      <div class="content">
+        <div class="search-area">
+          <img src="./assets/images/google.png" alt="Google logo" id="logo">
 
-        <div class="search">
-          <input type="text">
-          <button type="reset">X</button>
-          <img src="./assets/images/keyboard.svg" alt="Keyboard" id="keyboard-icon">
-          <img src="./assets/images/search.svg" alt="Search" id="magnifier-icon">
+          <div class="search">
+            <input type="text">
+            <button type="reset">X</button>
+            <img src="./assets/images/keyboard.svg" alt="Keyboard" id="keyboard-icon">
+            <img src="./assets/images/search.svg" alt="Search" id="magnifier-icon">
+          </div>
+        </div>
+
+        <div class="user-options">
+          <div class="menu-button">
+            <div class="button-parts"></div>
+            <div class="button-parts"></div>
+            <div class="button-parts"></div>
+
+            <div class="button-parts"></div>
+            <div class="button-parts"></div>
+            <div class="button-parts"></div>
+
+            <div class="button-parts"></div>
+            <div class="button-parts"></div>
+            <div class="button-parts"></div>
+          </div>
+
+          <img src="./assets/images/user.png" alt="User" id="user-img">
         </div>
       </div>
 
-      <div class="user-options">
-        <div class="menu-button">
-          <div class="button-parts"></div>
-          <div class="button-parts"></div>
-          <div class="button-parts"></div>
-
-          <div class="button-parts"></div>
-          <div class="button-parts"></div>
-          <div class="button-parts"></div>
-
-          <div class="button-parts"></div>
-          <div class="button-parts"></div>
-          <div class="button-parts"></div>
+      <nav>
+        <div class="container">
+          <a href="#" class="nav-option" id="first-option">
+            <img src="./assets/images/nav-search.svg" alt="Todas">
+            <p>Todas</p>
+          </a>
+          <a href="#" class="nav-option">
+            <img src="./assets/images/nav-picture.svg" alt="Todas">
+            <p>Imagens</p>
+          </a>
+          <a href="#" class="nav-option">
+            <img src="./assets/images/nav-video.svg" alt="Todas">
+            <p>Vídeos</p>
+          </a>
+          <a href="#" class="nav-option">
+            <img src="./assets/images/nav-news.svg" alt="Todas">
+            <p>Notícias</p>
+          </a>
+          <a href="#" class="nav-option">
+            <img src="./assets/images/nav-book.svg" alt="Todas">
+            <p>Livros</p>
+          </a>
+          <a href="#" class="nav-option">
+            <div class="more-icon">
+              <div class="more-icon-parts"></div>
+              <div class="more-icon-parts"></div>
+              <div class="more-icon-parts"></div>
+            </div>
+            <p>Mais</p>
+          </a>
+          <a href="#" class="nav-option">
+            <p>Configurações</p>
+          </a>
+          <a href="#" class="nav-option">
+            <p>Ferramentas</p>
+          </a>
         </div>
+      </nav>
+    </header>
 
-        <img src="./assets/images/user.png" alt="User" id="user-img">
-      </div>
-    </div>
-
-    <nav>
+    <main>
       <div class="container">
-        <a href="#" class="nav-option" id="first-option">
-          <img src="./assets/images/nav-search.svg" alt="Todas">
-          <p>Todas</p>
-        </a>
-        <a href="#" class="nav-option">
-          <img src="./assets/images/nav-picture.svg" alt="Todas">
-          <p>Imagens</p>
-        </a>
-        <a href="#" class="nav-option">
-          <img src="./assets/images/nav-video.svg" alt="Todas">
-          <p>Vídeos</p>
-        </a>
-        <a href="#" class="nav-option">
-          <img src="./assets/images/nav-news.svg" alt="Todas">
-          <p>Notícias</p>
-        </a>
-        <a href="#" class="nav-option">
-          <img src="./assets/images/nav-book.svg" alt="Todas">
-          <p>Livros</p>
-        </a>
-        <a href="#" class="nav-option">
-          <div class="more-icon">
-            <div class="more-icon-parts"></div>
-            <div class="more-icon-parts"></div>
-            <div class="more-icon-parts"></div>
+        <section id="results">
+          <span>Aproximadamente 164.000.000 resultados (0,48 segundos)</span>
+
+          <div class="results">
+            <div class="result">
+              <a href="https://www.lipsum.com/" class="page-name">
+                <p class="result-link">www.lipsum.com</p>
+                <h2>Lipsum generator: Lorem Ipsum - All the facts</h2>
+              </a>
+              <div class="page-description">
+                <p>Reference site about <strong>Lorem Ipsum</strong>, giving information on its origins, as well as a
+                  random
+                  <br>
+                  Lipsum generator.</p>
+              </div>
+            </div>
+
+            <div class="result">
+              <a href="https://loremipsum.io/" class="page-name">
+                <p class="result-link">loremipsum.io</p>
+                <h2>Lorem Ipsum – Generator, Origins and Meaning</h2>
+              </a>
+              <div class="page-description">
+                <p>Generate <strong>Lorem Ipsum</strong> placeholder text for use in your graphic, print and web
+                  layouts,
+                  and <br>
+                  discover plugins for your favorite writing, design and blogging tools.</p>
+              </div>
+            </div>
+
+            <div class="result">
+              <a href="https://pt.wikipedia.org/wiki/Lorem_ipsum" class="page-name">
+                <p class="result-link">pt.wikipedia.org</p>
+                <h2>Lorem ipsum – Wikipédia, a enciclopédia livre</h2>
+              </a>
+              <div class="page-description">
+                <p>A expressão <strong>Lorem Ipsum</strong> em design gráfico e editoração é um texto padrão em latim
+                  utilizado <br>
+                  na produção gráfica para preencher os espaços de texto em ...</p>
+              </div>
+            </div>
+
+            <div class="result">
+              <a href="https://brasil.uxdesign.cc/geradores-de-lorem-ipsum-para-todos-os-gostos-7593d6a5b2c1"
+                class="page-name">
+                <p class="result-link">brasil.uxdesign.cc</p>
+                <h2>Geradores de Lorem Ipsum para todos os gostos - UX Collective</h2>
+              </a>
+              <div class="page-description">
+                <p><span>24 de fev. de 2013 - </span>
+                  Para quem não conhece, “<strong>Lorem Ipsum</strong>” ou “dummy text” é um texto <br>
+                  utilizado para preencher o espaço de texto em publicações (jornais, ...
+                </p>
+              </div>
+
+            </div>
           </div>
-          <p>Mais</p>
-        </a>
-        <a href="#" class="nav-option">
-          <p>Configurações</p>
-        </a>
-        <a href="#" class="nav-option">
-          <p>Ferramentas</p>
-        </a>
+
+          <div class="faq">
+            <h2>As pessoas também perguntam</h2>
+
+            <div class="questions">
+              <div class="question">
+                <p>O que quer dizer Lorem ipsum dolor sit amet?</p>
+                <span class="letter-arrow"> > </span>
+              </div>
+
+              <div class="question">
+                <p>Como usar o Lorem Ipsum?</p>
+                <span class="letter-arrow"> > </span>
+              </div>
+
+              <div class="question">
+                <p>Para que serve o site Lorem Ipsum?</p>
+                <span class="letter-arrow"> > </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="results">
+            <div class="result">
+              <a href="Lista tem 20 opções alternativas de Lorem Ipsum | Notícias ..." class="page-name">
+                <p class="result-link">www.techtudo.com.br</p>
+                <h2>Lista tem 20 opções alternativas de Lorem Ipsum | Notícias ...</h2>
+              </a>
+              <div class="page-description">
+                <p>
+                  <span>16 de jun. de 2014 - </span>
+                  O <strong>Lorem Ipsum</strong> é um texto que serve como modelo para simular conteúdo. <br>
+                  É usado normalmente por designers na elaboração de projetos ...
+                </p>
+              </div>
+            </div>
+
+            <div class="result">
+              <a href="https://generator.lorem-ipsum.info/" class="page-name">
+                <p class="result-link">generator.lorem-ipsum.info</p>
+                <h2>Professional lorem ipsum generator for typographers</h2>
+              </a>
+              <div class="page-description">
+                <p><strong>Lorem Ipsum</strong> copy in various charsets and languages for layouts.</p>
+              </div>
+            </div>
+
+            <div class="result">
+              <a href="https://www.oficinadanet.com.br/design/25197-o-que-e-lorem-ipsum" class="page-name">
+                <p class="result-link">www.oficinadanet.com.br</p>
+                <h2>O que é Lorem Ipsum? - Oficina da Net</h2>
+              </a>
+              <div class="page-description">
+                <p>
+                  <span>23 de mar. de 2019 - </span>
+                  <strong>Lorem Ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
+                  temporary incididunt ut labore et dolore magna aliqua. Enim adim ad ...
+                </p>
+              </div>
+            </div>
+
+            <div class="result">
+              <a href="https://www.4devs.com.br/gerador_de_texto_lorem_ipsum" class="page-name">
+                <p class="result-link">www.4devs.com.br</p>
+                <h2>Gerador de Texto Lorem Ipsum - 4Devs</h2>
+              </a>
+              <div class="page-description">
+                <p>Ferramenta online de gerar texto aleatório do tradicional <strong>Lorem Ipsum</strong>, com opção de
+                  gerar em <br>
+                  HTML ou Texto puro e algumas outras opções.</p>
+              </div>
+            </div>
+
+            <div class="result">
+              <a href="https://support.microsoft.com/pt-br/help/114222/description-of-the-lorem-ipsum-dolor-sit-amet-text-that-appears-in-wor"
+                class="page-name">
+                <p class="result-link">support.microsoft.com</p>
+                <h2>Descrição do texto "Lorem ipsum dolor sit amet" que aparece ...</h2>
+              </a>
+              <div class="page-description">
+                <p><span>17 de abr. de 2018 - </span>
+                  Explicação do texto que começa com "<strong>Lorem Ipsum</strong> dolor sit amet <br>
+                  consectetuer" na Ajuda do Windows. O texto é uma tolice baseado no latim ...
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section id="related-searches">
+          <h2>Pesquisas relacionadas a lorem ipsum</h2>
+
+          <div class="search-exemples">
+            <div class="col">
+              <a href="#">lorem ipsum <strong>tradução</strong></a>
+              <a href="#">lorem ipsum <strong>texto</strong></a>
+              <a href="#">lorem ipsum <strong>significado</strong></a>
+              <a href="#">lorem ipsum <strong>br</strong></a>
+            </div>
+
+            <div class="col">
+              <a href="#">lorem ipsum <strong>aortuguês</strong></a>
+              <a href="#">lorem ipsum <strong>dolor sit amet, consectetur adiasicing elit</strong></a>
+              <a href="#">lorem ipsum <strong>mussum</strong></a>
+              <a href="#">lorem ipsum <strong>meaning</strong></a>
+            </div>
+          </div>
+        </section>
+
+        <section id="other-pages">
+          <div class="google-pages">
+            <div class="google-letters">
+              <h2 class="letter-blue"> G </h2>
+            </div>
+            <a href="#" class="google-letters">
+              <h2 class="letter-red"> o </h2>
+              <p id="first-page"> 1 </p>
+            </a>
+            <a href="#" class="google-letters">
+              <h2 class="letter-yellow"> o </h2>
+              <p> 2 </p>
+            </a>
+            <a href="#" class="google-letters">
+              <h2 class="letter-yellow"> o </h2>
+              <p> 3 </p>
+            </a>
+            <a href="#" class="google-letters">
+              <h2 class="letter-yellow"> o </h2>
+              <p> 4 </p>
+            </a>
+            <a href="#" class="google-letters">
+              <h2 class="letter-yellow"> o </h2>
+              <p> 5 </p>
+            </a>
+            <a href="#" class="google-letters">
+              <h2 class="letter-yellow"> o </h2>
+              <p> 6 </p>
+            </a>
+            <a href="#" class="google-letters">
+              <h2 class="letter-yellow"> o </h2>
+              <p> 7 </p>
+            </a>
+            <a href="#" class="google-letters">
+              <h2 class="letter-yellow"> o </h2>
+              <p> 8 </p>
+            </a>
+            <a href="#" class="google-letters">
+              <h2 class="letter-yellow"> o </h2>
+              <p> 9 </p>
+            </a>
+            <a href="#" class="google-letters">
+              <h2 class="letter-yellow"> o </h2>
+              <p id="letter-ten"> 10 </p>
+            </a>
+            <a href="#" class="google-letters letters-gle">
+              <h2 class="letter-blue"> g </h2>
+              <h2 class="letter-green"> l </h2>
+              <h2 class="letter-red"> e </h2>
+              <div class="google-more">
+                <p class="letter-arrow"> > </p>
+                <p> Mais </p>
+              </div>
+            </a>
+          </div>
+        </section>
       </div>
-    </nav>
-  </header>
+    </main>
 
-  <main>
-    <div class="container">
-      <section id="results">
-        <span>Aproximadamente 164.000.000 resultados (0,48 segundos)</span>
-
-        <div class="results">
-          <div class="result">
-            <a href="https://www.lipsum.com/" class="page-name">
-              <p class="result-link">www.lipsum.com</p>
-              <h2>Lipsum generator: Lorem Ipsum - All the facts</h2>
-            </a>
-            <div class="page-description">
-              <p>Reference site about <strong>Lorem Ipsum</strong>, giving information on its origins, as well as a
-                random
-                <br>
-                Lipsum generator.</p>
-            </div>
-          </div>
-
-          <div class="result">
-            <a href="https://loremipsum.io/" class="page-name">
-              <p class="result-link">loremipsum.io</p>
-              <h2>Lorem Ipsum – Generator, Origins and Meaning</h2>
-            </a>
-            <div class="page-description">
-              <p>Generate <strong>Lorem Ipsum</strong> placeholder text for use in your graphic, print and web layouts,
-                and <br>
-                discover plugins for your favorite writing, design and blogging tools.</p>
-            </div>
-          </div>
-
-          <div class="result">
-            <a href="https://pt.wikipedia.org/wiki/Lorem_ipsum" class="page-name">
-              <p class="result-link">pt.wikipedia.org</p>
-              <h2>Lorem ipsum – Wikipédia, a enciclopédia livre</h2>
-            </a>
-            <div class="page-description">
-              <p>A expressão <strong>Lorem Ipsum</strong> em design gráfico e editoração é um texto padrão em latim
-                utilizado <br>
-                na produção gráfica para preencher os espaços de texto em ...</p>
-            </div>
-          </div>
-
-          <div class="result">
-            <a href="https://brasil.uxdesign.cc/geradores-de-lorem-ipsum-para-todos-os-gostos-7593d6a5b2c1"
-              class="page-name">
-              <p class="result-link">brasil.uxdesign.cc</p>
-              <h2>Geradores de Lorem Ipsum para todos os gostos - UX Collective</h2>
-            </a>
-            <div class="page-description">
-              <p><span>24 de fev. de 2013 - </span>
-                Para quem não conhece, “<strong>Lorem Ipsum</strong>” ou “dummy text” é um texto <br>
-                utilizado para preencher o espaço de texto em publicações (jornais, ...
-              </p>
-            </div>
-
-          </div>
+    <footer>
+      <div class="footer-row">
+        <div class="container">
+          <p>Brasil</p>
         </div>
+      </div>
 
-        <div class="faq">
-          <h2>As pessoas também perguntam</h2>
-
-          <div class="questions">
-            <div class="question">
-              <p>O que quer dizer Lorem ipsum dolor sit amet?</p>
-              <span> > </span>
-            </div>
-
-            <div class="question">
-              <p>Como usar o Lorem Ipsum?</p>
-              <span> > </span>
-            </div>
-
-            <div class="question">
-              <p>Para que serve o site Lorem Ipsum?</p>
-              <span> > </span>
-            </div>
-          </div>
-        </div>
-
-        <div class="results">
-          <div class="result">
-            <a href="Lista tem 20 opções alternativas de Lorem Ipsum | Notícias ..." class="page-name">
-              <p class="result-link">www.techtudo.com.br</p>
-              <h2>Lista tem 20 opções alternativas de Lorem Ipsum | Notícias ...</h2>
-            </a>
-            <div class="page-description">
-              <p>
-                <span>16 de jun. de 2014 - </span>
-                O <strong>Lorem Ipsum</strong> é um texto que serve como modelo para simular conteúdo. <br>
-                É usado normalmente por designers na elaboração de projetos ...
-              </p>
-            </div>
-          </div>
-
-          <div class="result">
-            <a href="https://generator.lorem-ipsum.info/" class="page-name">
-              <p class="result-link">generator.lorem-ipsum.info</p>
-              <h2>Professional lorem ipsum generator for typographers</h2>
-            </a>
-            <div class="page-description">
-              <p><strong>Lorem Ipsum</strong> copy in various charsets and languages for layouts.</p>
-            </div>
-          </div>
-
-          <div class="result">
-            <a href="https://www.oficinadanet.com.br/design/25197-o-que-e-lorem-ipsum" class="page-name">
-              <p class="result-link">www.oficinadanet.com.br</p>
-              <h2>O que é Lorem Ipsum? - Oficina da Net</h2>
-            </a>
-            <div class="page-description">
-              <p>
-                <span>23 de mar. de 2019 - </span>
-                <strong>Lorem Ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
-                temporary incididunt ut labore et dolore magna aliqua. Enim adim ad ...
-              </p>
-            </div>
-          </div>
-
-          <div class="result">
-            <a href="https://www.4devs.com.br/gerador_de_texto_lorem_ipsum" class="page-name">
-              <p class="result-link">www.4devs.com.br</p>
-              <h2>Gerador de Texto Lorem Ipsum - 4Devs</h2>
-            </a>
-            <div class="page-description">
-              <p>Ferramenta online de gerar texto aleatório do tradicional <strong>Lorem Ipsum</strong>, com opção de gerar em <br>
-                HTML ou Texto puro e algumas outras opções.</p>
-            </div>
-          </div>
-
-          <div class="result">
-            <a href="https://support.microsoft.com/pt-br/help/114222/description-of-the-lorem-ipsum-dolor-sit-amet-text-that-appears-in-wor"
-              class="page-name">
-              <p class="result-link">support.microsoft.com</p>
-              <h2>Descrição do texto "Lorem ipsum dolor sit amet" que aparece ...</h2>
-            </a>
-            <div class="page-description">
-              <p><span>17 de abr. de 2018 - </span>
-                Explicação do texto que começa com "<strong>Lorem Ipsum</strong> dolor sit amet <br>
-                consectetuer" na Ajuda do Windows. O texto é uma tolice baseado no latim ...
-              </p>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section id="related-searches">
-        <h2>Pesquisas relacionadas a lorem ipsum</h2>
-
-        <div class="search-exemples">
-          <div class="col">
-            <a href="#">lorem ipsum <strong>tradução</strong></a>
-            <a href="#">lorem ipsum <strong>texto</strong></a>
-            <a href="#">lorem ipsum <strong>significado</strong></a>
-            <a href="#">lorem ipsum <strong>br</strong></a>
-          </div>
-
-          <div class="col">
-            <a href="#">lorem ipsum <strong>aortuguês</strong></a>
-            <a href="#">lorem ipsum <strong>dolor sit amet, consectetur adiasicing elit</strong></a>
-            <a href="#">lorem ipsum <strong>mussum</strong></a>
-            <a href="#">lorem ipsum <strong>meaning</strong></a>
-          </div>
-        </div>
-      </section>
-
-      <section id="other-pages">
-        <div class="google-pages">
-          <div class="google-letters">
-            <h2 class="letter-blue"> G </h2>
-          </div>
-          <a href="#" class="google-letters">
-            <h2 class="letter-red"> o </h2>
-            <p id="first-page"> 1 </p>
+      <div class="footer-row">
+        <div class="container">
+          <a
+            href="https://support.google.com/websearch/?visit_id=637300105130796368-883440651&hl=pt-BR&rd=2#topic=3378866">
+            Ajuda
           </a>
-          <a href="#" class="google-letters">
-            <h2 class="letter-yellow"> o </h2>
-            <p> 2 </p>
+          <a href="#">
+            Enviar feedback
           </a>
-          <a href="#" class="google-letters">
-            <h2 class="letter-yellow"> o </h2>
-            <p> 3 </p>
+          <a href="https://policies.google.com/privacy?hl=pt-BR&fg=1">
+            Privacidade
           </a>
-          <a href="#" class="google-letters">
-            <h2 class="letter-yellow"> o </h2>
-            <p> 4 </p>
-          </a>
-          <a href="#" class="google-letters">
-            <h2 class="letter-yellow"> o </h2>
-            <p> 5 </p>
-          </a>
-          <a href="#" class="google-letters">
-            <h2 class="letter-yellow"> o </h2>
-            <p> 6 </p>
-          </a>
-          <a href="#" class="google-letters">
-            <h2 class="letter-yellow"> o </h2>
-            <p> 7 </p>
-          </a>
-          <a href="#" class="google-letters">
-            <h2 class="letter-yellow"> o </h2>
-            <p> 8 </p>
-          </a>
-          <a href="#" class="google-letters">
-            <h2 class="letter-yellow"> o </h2>
-            <p> 9 </p>
-          </a>
-          <a href="#" class="google-letters">
-            <h2 class="letter-yellow"> o </h2>
-            <p id="letter-ten"> 10 </p>
-          </a>
-          <a href="#" class="google-letters letters-gle">
-            <h2 class="letter-blue"> g </h2>
-            <h2 class="letter-green"> l </h2>
-            <h2 class="letter-red"> e </h2>
-            <div class="google-more">
-              <p id="letter-arrow"> > </p>
-              <p> Mais </p>
-            </div>
+          <a href="https://policies.google.com/terms?hl=pt-BR&fg=1">
+            Termos
           </a>
         </div>
-      </section>
-    </div>
-  </main>
-</body>
+      </div>
+    </footer>
+  </body>
 
-</html>
+  </html>
