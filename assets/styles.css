@@ -42,11 +42,15 @@ a {
 
 .search {
   display: flex;
-  width: 660px;
+  max-width: 660px;
   padding: 8px;
   border: 1px solid #ddd;
   border-radius: 30px;
   margin-left: 50px;
+}
+
+.search:hover {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .search input {
@@ -54,6 +58,7 @@ a {
   border: none;
   margin: 0 8px;
   font-size: 16px;
+  outline: none;
 }
 
 .search button {
@@ -196,7 +201,7 @@ main .container {
 /* FAQ */
 
 .faq {
-  width: 650px;
+  max-width: 650px;
   border: 1px solid #ddd;
   border-radius: 10px;
   margin: 30px 0;
@@ -238,6 +243,7 @@ main .container {
 .search-exemples .col {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .search-exemples .col:first-child {
@@ -324,6 +330,7 @@ main .container {
 /* Footer */
 
 footer {
+  margin-top: 20px;
   background-color: #eee;
 }
 
@@ -345,4 +352,114 @@ footer {
 
 .footer-row a:hover {
   color: #444;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    margin: 0 20px;
+  }
+  .content {
+    height: 150px;
+    justify-content: center;
+  }
+  nav .container {
+    margin: 0 40px;
+  }
+  main, footer {
+    display: flex;
+    justify-content: center;
+  }
+  .search-area {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .search input {
+    width: 350px;
+  }
+  #logo {
+    width: 150px;
+    margin: 10px 0 15px 0;
+  }
+  .menu-button {
+    display: none;
+  }
+  #user-img {
+    margin-top: 75px;
+  }
+  footer {
+    border-top: 1px solid #ddd;
+  }
+  .footer-row {
+    border-top: none;
+  }
+  .footer-row:first-child {
+    border-right: 1px solid #ddd;
+  }
+}
+
+@media (max-width: 780px) {
+  #keyboard-icon {
+    display: none;
+  }
+  #magnifier-icon {
+    margin-left: 10px;
+  }
+  .user-options,
+  .none {
+    display: none;
+  }
+  .search {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 570px) {
+  .search input {
+    width: 250px;
+  }
+  .none2 {
+    display: none;
+  }
+  .footer-row {
+    padding: 10px 0;
+  }
+  .footer-row p,
+  .footer-row a {
+    font-size: 12px;
+  }
+  .footer-row a {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 440px) {
+  .none3 {
+    display: none;
+  }
+  .search input {
+    width: 200px;
+  }
+  .google-letters h2 {
+    font-size: 24px;
+  }
+  .google-letters p {
+    font-size: 12px;
+  }
+  .footer-row p,
+  .footer-row a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  .search input {
+    width: 150px;
+  }
+  .google-letters h2 {
+    font-size: 20px;
+  }
+  .google-letters p {
+    font-size: 10px;
+  }
 }
